@@ -108,6 +108,7 @@ public class ZipFilesUtility {
 	}
 
 	private static void writeContentToFile(String path) {
+	System.out.println("Copying file contents from C:/SampleFile.pdf");
 		File f = new File("C:/SampleFile.pdf");
 
 		OutputStream oos;
