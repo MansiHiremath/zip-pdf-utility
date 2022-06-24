@@ -98,6 +98,7 @@ public class ZipFilesUtility {
 				}
 				fis.close();
 			}
+			System.out.println("Files zipped to "+baseDir + File.separator + "compressedfiles.zip");
 			zipOut.close();
 			fos.close();
 		} catch (IOException e) {
